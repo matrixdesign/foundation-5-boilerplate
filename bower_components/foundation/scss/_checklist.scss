@@ -1,0 +1,18 @@
+.check-container{
+	@include grid-column(12);
+	overflow: hidden;
+}
+
+.button-col{
+	@include grid-column(3);
+
+}
+
+.tick-col{
+	@include grid-column(3)
+}
+
+.list-col{
+	@include grid-column(6);
+
+}

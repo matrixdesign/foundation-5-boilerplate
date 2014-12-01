@@ -1,0 +1,206 @@
+@import "foundation/settings";
+//@import "foundation";
+
+// Or selectively include components
+@import "foundation/components/grid";
+@import "foundation/components/accordion";
+@import "foundation/components/alert-boxes";
+@import "foundation/components/block-grid";
+@import "foundation/components/breadcrumbs";
+@import "foundation/components/button-groups";
+@import "foundation/components/buttons";
+@import "foundation/components/clearing";
+@import "foundation/components/dropdown";
+@import "foundation/components/dropdown-buttons";
+@import "foundation/components/flex-video";
+@import "foundation/components/forms";
+@import "foundation/components/icon-bar";
+@import "foundation/components/inline-lists";
+@import "foundation/components/joyride";
+@import "foundation/components/keystrokes";
+@import "foundation/components/labels";
+@import "foundation/components/magellan";
+@import "foundation/components/orbit";
+@import "foundation/components/pagination";
+@import "foundation/components/panels";
+@import "foundation/components/pricing-tables";
+@import "foundation/components/progress-bars";
+@import "foundation/components/range-slider";
+@import "foundation/components/reveal";
+@import "foundation/components/side-nav";
+@import "foundation/components/split-buttons";
+@import "foundation/components/sub-nav";
+@import "foundation/components/switches";
+@import "foundation/components/tables";
+@import "foundation/components/tabs";
+@import "foundation/components/thumbs";
+@import "foundation/components/tooltips";
+@import "foundation/components/top-bar";
+@import "foundation/components/type";
+@import "foundation/components/offcanvas";
+@import "foundation/components/visibility";
+
+
+@import "checklist";
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+      max-width: 740px;
+    }
+
+    p,li {
+      font-size: 15px;
+    }
+
+    .top-bar {
+      height: 44px;
+      background: #00AEEF;
+      text-align: center;
+      top:0;
+      z-index:1;
+      border-bottom: 1px solid #0094d9;
+      box-shadow: rgba(0, 0, 0, .25) 0 1px 2px;
+    }
+
+    h2 {
+        color:#fff;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 44px;
+        margin: 0;
+        text-shadow: 0 -1px rgba(0,0,0,.2);
+      }
+
+    .top-bar-button {
+        border-style: solid;
+        border-width: 1px;
+        font-family: inherit;
+        font-weight: bold;
+        line-height: 1;
+        position: relative;
+        text-decoration: none;
+        text-align: center;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        background: #009fd9;
+        color: #fff;
+        box-shadow: rgba(255, 255, 255, .4) 0 1px 0 inset;
+        border-color: #008cbf;
+        font-size: 12px;
+        padding: 5px 6px;
+        margin-top: 9px;
+      }
+
+    .nav {
+    	position: absolute;
+    	bottom: 0;
+    	left: 0;
+      width:100%;
+      box-shadow: rgba(0, 0, 0, .25) 0 -1px 2px;
+    }
+
+    .nav-button {
+      float: left;
+      background: #46484d;
+      height:40px;
+      width:25%;
+      margin:0;
+      border-right: 1px solid #5a5a5a;
+      text-align: center;
+    }
+
+    .nav-button a {
+      color:#fff;
+      text-decoration: none;
+      line-height: 40px;
+      text-shadow: 0 -1px rgba(0,0,0,.9);
+    }
+    .nav-me {
+      border: none;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 0;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+
+    .content
+    {
+      height: 396px;
+      background: #fbfbfb;
+    }
+////////////////////////////////////////////
+// Index2.html
+//////////////
+.center.row {
+  //height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  max-width: 500px;
+}
+
+.signup-panel {
+  padding: 15px;
+  i {
+    font-size: 30px;
+    line-height: 50px;
+    color: #999;
+  }
+  form {
+    input, span {
+      height: 50px;
+    }
+  }
+  .welcome {
+    font-size: 26px;
+    text-align: center;
+    margin-left: 0;
+  }
+  .button {
+    margin-left: 35%;
+  }
+}
+
+section.active {
+  padding-top: 75px !important;
+}
+
+p.title {
+  border-bottom: 1px solid #cccccc !important;
+}
+
+.content {
+  height: 450px;
+}
+
+      .size-12 { font-size: 12px; }
+
+      .size-14 { font-size: 14px; }
+
+      .size-16 { font-size: 16px; }
+
+      .size-18 { font-size: 18px; }
+
+      .size-21 { font-size: 21px; }
+
+      .size-24 { font-size: 24px; }
+
+      .size-36 { font-size: 36px; }
+
+      .size-48 { font-size: 48px; }
+
+      .size-60 { font-size: 60px; }
+
+      .size-72 { font-size: 72px; }
